@@ -55,7 +55,7 @@ export const Timeline = () => {
               Masai School (Remote)
             </h4>
             <p data-aos="fade-right">
-              Joined MERN Stack Developer Bootcamp to Full Stack Web Development
+              Joined MERN Stack Developer Bootcamp to learn Full Stack Web Development
               and Data Structures
             </p>
           </VerticalTimelineElement>
