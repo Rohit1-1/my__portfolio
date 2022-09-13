@@ -12,20 +12,20 @@ export const Projects = () => {
   return (
     <>
       <div className="section">
-        <h2 className="section__title different" data-aos="zoom-in-up">
+        <h2 className="section__title different" data-aos="fade-right">
           Projects
         </h2>
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="zoom-in-up">
+              <div data-aos="zoom-out-right">
                 <img
                   src={anthro}
                   alt="KryptoBuzz"
                 />
               </div>
             </div>
-            <div className="project_information" data-aos="zoom-in-up">
+            <div className="project_information" data-aos="zoom-out-right">
               <h2>Anthropologie</h2>
               <p>
               Anthropologie is a unique, full-lifestyle shopping destination
@@ -61,14 +61,14 @@ export const Projects = () => {
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="zoom-in-up">
+              <div data-aos="zoom-out-right">
                 <img
                   src={expedia}
                   alt=""
                 />
               </div>
             </div>
-            <div className="project_information" data-aos="zoom-in-up">
+            <div className="project_information" data-aos="zoom-out-right">
               <h2>Expedia</h2>
               <p>
               Expedia Group, Inc. is an American online travel shopping company for consumer and small business travel. 
@@ -105,14 +105,14 @@ export const Projects = () => {
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="zoom-in-up">
+              <div data-aos="zoom-out-right">
                 <img
                   src={weather}
                   alt=""
                 />
               </div>
             </div>
-            <div className="project_information" data-aos="zoom-in-up">
+            <div className="project_information" data-aos="zoom-out-right">
               <h2>Weather Application</h2>
               <p>
               It gives you the weather details of present day along with future forecast of seven days of searched city.

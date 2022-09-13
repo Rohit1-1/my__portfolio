@@ -14,7 +14,7 @@ export const Navbar = () => {
   const toggleNavList = (id) => {
     var element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView();
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' })
     }
     setShowNavList(!showNavList);
   };
