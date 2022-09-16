@@ -21,7 +21,7 @@ export const About = () => {
         <div className="about__contact center" >
           <a href={resume}
              download={resume}>
-            <button className="resume_btn">RESUME</button>
+            <button className="resume_btn">Download CV</button>
           </a>
         </div>
       </div>

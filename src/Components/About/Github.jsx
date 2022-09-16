@@ -1,5 +1,6 @@
 import React from "react";
 import {Calendar} from "react-big-calendar";
+import { GitHubCalendar} from "github-calendar"
 export const Github = () => {
   const colourTheme = {
     background: "transparent",
@@ -16,7 +17,7 @@ export const Github = () => {
         <h2 className="section__title">
           Days I <span className="different"> Code</span>
         </h2>
-        <Calendar
+        < GitHubCalendar
           username="Rohit1-1"
           blockSize={15}
           blockMargin={5}

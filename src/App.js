@@ -10,6 +10,7 @@ import { Projects } from "./Components/Projects/Projects";
 import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
+import { Github } from "./Components/About/Github";
 export default function App() {
   const [{ themename }] = React.useContext(ThemeContext);
   // const [showeffect,setShoweffect]=useState(false)
@@ -47,7 +48,7 @@ export default function App() {
      data-aos-duration="1400">
         <About />
         </div>
-        {/* <Github /> */}
+        {/* <Github/> */}
         <section id="#projects">
           <Projects />
         </section>
