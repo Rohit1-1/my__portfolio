@@ -1,15 +1,12 @@
 import React from "react";
-import { ThemeContext } from "../../Context/theme";
 import "./Navbar.css";
-import Brightness2Icon from "@mui/icons-material/Brightness2";
-import WbSunnyRoundedIcon from "@mui/icons-material/WbSunnyRounded";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import resume from "./Resume/RESUME.pdf"
 
+
 export const Navbar = () => {
-  const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
-  const [showNavList, setShowNavList] = React.useState(false);
+ const [showNavList, setShowNavList] = React.useState(false);
 
   const toggleNavList = (id) => {
     var element = document.getElementById(id);
@@ -20,18 +17,19 @@ export const Navbar = () => {
   };
   return (
     <>
-      <nav  className="center nav" >
+      <nav  className="center nav" id="navbar">
         <ul
           style={{ display: showNavList ? "flex" : null }}
           className="nav__list"
         >
           <li className="nav__list-item">
+           
             <a
               href="#home"
               onClick={() => toggleNavList("#home")}
               className="link link--nav"
             >
-              Home
+          
             </a>
           </li>
           <li className="nav__list-item">
@@ -42,6 +40,9 @@ export const Navbar = () => {
             >
               About
             </a>
+            {/* <Link activeClass="active" to="#about" spy={true} delay={10} smooth={true}>
+                Home
+            </Link> */}
           </li>
           <li className="nav__list-item">
             <a
@@ -82,15 +83,6 @@ export const Navbar = () => {
             </a>
           </li>
         </ul>
-        <button
-          type="button"
-          onClick={toggeltheme}
-          className="btn btn--icon nav__theme"
-          aria-label="toggle theme"
-          style={{ backgroundColor: "inherit" }}
-        >
-          {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
-        </button>
         <button
           type="button"
           onClick={toggleNavList}

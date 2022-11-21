@@ -6,10 +6,10 @@ export const Introduction = () => {
   console.log(img)
   return (
     <>
-      <section id="#about">
+      <section >
         <div className="section" data-aos="fade-up"
      data-aos-duration="2000">
-          <h2 className="section__title">
+          <h2 className="section__title" id="#about">
             About <span className="different">Me</span>
           </h2>
           <div className="introduction">
@@ -30,27 +30,18 @@ export const Introduction = () => {
                 Apart from coding, some other activities that I love to do!
               </h4>
               <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
                 Playing cricket{" "}
               </h4>
               <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
+               
                 Solving Problems{" "}
               </h4>
               <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
+                
                   Watching K-Drama{" "}
               </h4>
               <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
+                
                 Listening to Music{" "}
               </h4>
             </div>

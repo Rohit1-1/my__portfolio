@@ -1,32 +1,32 @@
 import React from "react";
 import "./About.css";
-import { Type } from "./Type";
 import { Introduction } from "./Introduction";
-import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
+import {AiOutlineCloudDownload} from 'react-icons/ai'
 import resume from "../Navbar/Resume/RESUME.pdf"
 export const About = () => {
   return (
     <>
-      <div className="about center">
+      <div className="about center" id="home">
         <h1 >
           Hi, I am <span className="about__name">Rohit Kumar</span>
         </h1>
-        <Type />
+         <h1>I am a<span className="about__name"> full-stack developer</span></h1>
         <p className="about__desc">
           A passionate Full Stack Software Developer having an experience of
           building Web applications with JavaScript / Reactjs / Nodejs / MongoDb
-          and some other cool libraries and frameworks.
+          and some other cool libraries and frameworks.I love to transform ideas into reality using code and developing web-apps using the latest front-end technologies and full fleged APIs.
+          Currently I'm learning Typescript and Chakra UI.
         </p>
         <div className="about__contact center" >
           <a href={resume}
              download={resume}>
-            <button className="resume_btn">Download CV</button>
+            <button className="resume_btn">Download CV &nbsp;
+            <AiOutlineCloudDownload size={19}></AiOutlineCloudDownload></button>
           </a>
         </div>
       </div>
       <Introduction />
-      <Timeline />
       <section id="#skills">
         <Techstacks />
       </section>

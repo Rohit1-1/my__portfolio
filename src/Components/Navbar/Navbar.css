@@ -4,6 +4,11 @@
 }
 .nav__list-item {
   margin-left: 1.5em;
+  cursor: pointer;
+
+}
+.nav__list-item:hover{
+  transform: scale(1.08);
 }
 .app .nav__hamburger {
   display: none;
@@ -11,7 +16,9 @@
 .nav__theme {
   margin-top: 0.4em;
 }
-
+.nav{
+  background-color: white;
+}
 @media (max-width: 600px) {
   .nav__list {
     display: none;

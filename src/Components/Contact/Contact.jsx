@@ -8,10 +8,10 @@ export const Contact = () => {
   return (
     <>
       <div className="section">
-        <h2 className="section__title" data-aos="fade-up">
+        <h2 className="section__title" >
           Get in <span className="different">Touch</span>
         </h2>
-        <div className="contactcontainer" data-aos="fade-up">
+        <div className="contactcontainer" >
           <a
             href="https://www.linkedin.com/in/rohit-kumar-826365233/"
             target="_blank"

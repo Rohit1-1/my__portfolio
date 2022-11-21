@@ -4,10 +4,10 @@ import "./Header.css";
 export const Header = () => {
   return (
     <>
-      <header className="header center">
-        <h3>
+      <header className="header center" id="navbar">
+        <h3 className="logo">
           <a href="#home" className="link">
-            Rohit Kumar.
+            Rohit Kumar
           </a>
         </h3>
         <Navbar />
