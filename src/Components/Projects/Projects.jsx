@@ -124,7 +124,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://rohit1-1.github.io/Weather-forecast/"
+                  href="https://rohit1-1.github.io/WeatherApp_Clone/"
                   target="_blank"
                   rel="noreferrer"
                 >
