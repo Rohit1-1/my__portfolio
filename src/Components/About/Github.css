@@ -1,0 +1,17 @@
+.github_box{
+margin-top: 3rem;
+/* border: 1px solid green; */
+}
+.github__title{
+    /* border: 1px solid green; */
+ text-align: center !important;
+  text-decoration: underline !important;
+  margin-bottom: 2rem !important;
+  text-transform: uppercase !important;
+}
+@media (max-width: 600px) {
+    .differentp{
+        margin-top: 36rem;
+        /* border: 1px solid black; */
+      }
+}

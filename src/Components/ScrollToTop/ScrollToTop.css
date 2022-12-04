@@ -4,7 +4,9 @@
   right: 1em;
   background-color: transparent;
 }
-
+.scroll-top :hover{
+  transform: scale(1.11);
+}
 @media (max-width: 900px) {
   .scroll-top {
     display: none;

@@ -3,6 +3,12 @@ import "./Navbar.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import resume from "./Resume/RESUME.pdf"
+import {FaUser} from 'react-icons/fa'
+import {HiHome} from 'react-icons/hi'
+import {AiOutlineCloudDownload} from 'react-icons/ai'
+import {RiSettings5Fill} from 'react-icons/ri'
+import {SiPolymerproject} from 'react-icons/si'
+import {MdPhone} from 'react-icons/md'
 
 
 export const Navbar = () => {
@@ -25,11 +31,12 @@ export const Navbar = () => {
           <li className="nav__list-item">
            
             <a
-              href="#home"
+              href="#"
               onClick={() => toggleNavList("#home")}
               className="link link--nav"
             >
-          
+              <HiHome/>
+             Home
             </a>
           </li>
           <li className="nav__list-item">
@@ -38,6 +45,7 @@ export const Navbar = () => {
               onClick={() => toggleNavList("#about")}
               className="link link--nav"
             >
+              <FaUser size={14}/>
               About
             </a>
             {/* <Link activeClass="active" to="#about" spy={true} delay={10} smooth={true}>
@@ -50,6 +58,7 @@ export const Navbar = () => {
               onClick={() => toggleNavList("#skills")}
               className="link link--nav"
             >
+              <RiSettings5Fill/>
               Skills
             </a>
           </li>
@@ -59,6 +68,7 @@ export const Navbar = () => {
               onClick={() => toggleNavList("#projects")}
               className="link link--nav"
             >
+              <SiPolymerproject/>
               Projects
             </a>
           </li>
@@ -68,6 +78,7 @@ export const Navbar = () => {
               onClick={() => toggleNavList("#contact")}
               className="link link--nav"
             >
+              <MdPhone/>
               Contact
             </a>
           </li>
@@ -79,6 +90,7 @@ export const Navbar = () => {
               className="link link--nav"
               rel="noreferrer"
             >
+              <AiOutlineCloudDownload size={16}/>
               Resume
             </a>
           </li>

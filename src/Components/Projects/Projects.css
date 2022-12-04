@@ -88,6 +88,7 @@
   display: none;
 }
 
+
 @media (max-width: 600px) {
   .project {
     flex-direction: column;

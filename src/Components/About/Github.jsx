@@ -1,10 +1,11 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar"
+import "./Github.css"
 export const Github = () => {
   return (
     <>
-      <div className="section" data-aos="fade-up">
-        <h2 className="section__title">
+      <div className="github_box">
+        <h2 className="github__title differentp">
           Days I <span className="different"> Code</span>
         </h2>
         

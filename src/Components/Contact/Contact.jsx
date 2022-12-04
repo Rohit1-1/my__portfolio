@@ -8,8 +8,8 @@ export const Contact = () => {
   return (
     <>
       <div className="section">
-        <h2 className="section__title" >
-          Get in <span className="different">Touch</span>
+        <h2 className="section__title different" >
+          Contacts
         </h2>
         <div className="contactcontainer" >
           <a

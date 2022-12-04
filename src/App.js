@@ -40,19 +40,22 @@ export default function App() {
         <Header />
       </section> */}
       <main>
-        <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1400">
+        <div className="mrgn_top">
         <About />
         </div>
+        <div className="mrgn_top">
         <Github/>
-        <section id="#projects">
+        </div>
+       <section id="#projects" className="mrgn_top">
           <Projects />
         </section>
-        <section id="#contact">
+        
+        <section id="#contact" className="mrgn_top">
           <Contact />
         </section>
       </main>
+      
+     
       <Footer />
       <ScrollToTop />
     </div>

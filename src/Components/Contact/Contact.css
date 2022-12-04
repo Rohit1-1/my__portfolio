@@ -2,8 +2,10 @@
   display: flex;
   width: 60%;
   margin: auto;
+  align-items: center;
   justify-content: space-evenly;
   padding-top: 2em;
+  /* border: 1px solid black; */
 }
 
 .contactcontainer svg {
