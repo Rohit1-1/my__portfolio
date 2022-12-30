@@ -2,13 +2,14 @@ import React from "react";
 import "./Navbar.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import resume from "./Resume/RESUME.pdf"
+import Rohit_Kumar_Resume from "./Resume/Rohit_Kumar_Resume.pdf"
 import {FaUser} from 'react-icons/fa'
 import {HiHome} from 'react-icons/hi'
 import {AiOutlineCloudDownload} from 'react-icons/ai'
 import {RiSettings5Fill} from 'react-icons/ri'
 import {SiPolymerproject} from 'react-icons/si'
 import {MdPhone} from 'react-icons/md'
+import { Button } from "react-scroll";
 
 
 export const Navbar = () => {
@@ -84,8 +85,8 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
-            href={resume}
-             download={resume}
+            href={Rohit_Kumar_Resume}
+             download='Rohit_Kumar_Resume.pdf'
               onClick={toggleNavList}
               className="link link--nav"
               rel="noreferrer"

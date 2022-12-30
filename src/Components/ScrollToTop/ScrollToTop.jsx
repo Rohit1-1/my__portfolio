@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import "./ScrollToTop.css";
+import { Box } from "@chakra-ui/react";
 
 export const ScrollToTop = () => {
   
@@ -15,10 +16,10 @@ export const ScrollToTop = () => {
   }, []);
 
   return isVisible ? (
-    <div className="scroll-top">
+    <Box className="scroll-top">
       <a href="#top">
         <ArrowUpwardIcon fontSize="large" />
       </a>
-    </div>
+    </Box>
   ) : null;
 };

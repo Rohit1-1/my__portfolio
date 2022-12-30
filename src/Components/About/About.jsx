@@ -3,13 +3,14 @@ import "./About.css";
 import { Introduction } from "./Introduction";
 import { Techstacks } from "./Techstacks";
 import {AiOutlineCloudDownload} from 'react-icons/ai'
-import resume from "../Navbar/Resume/RESUME.pdf"
+import Rohit_Kumar_Resume from "../Navbar/Resume/Rohit_Kumar_Resume.pdf"
+import { Box } from "@chakra-ui/react";
 export const About = () => {
   return (
     <>
-      <div className="about center" id="home">
+      <Box className="about center" id="home">
         <h1 >
-          Hi, I am <span className="about__name">Rohit Kumar</span>
+          Hi, I am <span className="about__name">Rohit Kumar </span>
         </h1>
          <h1>I am a<span className="about__name"> full-stack developer</span></h1>
         <p className="about__desc">
@@ -18,14 +19,14 @@ export const About = () => {
           and some other cool libraries and frameworks.I love to transform ideas into reality using code and developing web-apps using the latest front-end technologies and full fleged APIs.
           Currently I'm learning Typescript and Chakra UI.
         </p>
-        <div className="about__contact center" >
-          <a href={resume}
-             download={resume}>
+        <Box className="about__contact center" >
+          <a href={Rohit_Kumar_Resume}
+             download="Rohit_Kumar_Resume.pdf">
             <button className="resume_btn">Download CV &nbsp;
             <AiOutlineCloudDownload size={19}></AiOutlineCloudDownload></button>
           </a>
-        </div>
-      </div>
+        </Box>
+      </Box>
       <Introduction />
       <section id="#skills">
         <Techstacks />

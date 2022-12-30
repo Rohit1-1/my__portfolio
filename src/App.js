@@ -9,6 +9,8 @@ import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
 import { Github } from "./Components/About/Github";
+import { Box } from "@chakra-ui/react";
+import Stats from "./Components/Stats/Stats";
 export default function App() {
   // const [showeffect,setShoweffect]=useState(false)
    React.useEffect(() => {
@@ -30,7 +32,7 @@ export default function App() {
     
   // };
   return (
-    <div id="top" className={`light app`}>
+    <Box id="top" className={`light app`}>
       <section 
          className="sticky" id="#home">
         <Header />
@@ -40,12 +42,17 @@ export default function App() {
         <Header />
       </section> */}
       <main>
-        <div className="mrgn_top">
+        <Box className="mrgn_top">
         <About />
-        </div>
-        <div className="mrgn_top">
+        </Box>
+        <Box className="mrgn_top">
         <Github/>
-        </div>
+        </Box>
+      <Box  >
+        <Stats/>
+      </Box>
+         
+     
        <section id="#projects" className="mrgn_top">
           <Projects />
         </section>
@@ -54,10 +61,9 @@ export default function App() {
           <Contact />
         </section>
       </main>
-      
-     
+ 
       <Footer />
       <ScrollToTop />
-    </div>
+    </Box>
   );
 }
