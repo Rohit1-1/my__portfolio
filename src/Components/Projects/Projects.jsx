@@ -71,6 +71,56 @@ export const Projects = () => {
           </Box>
         </Box>
 
+
+        <Box className="projects_container">
+          <Box className="project">
+            <Box className="project_videocontainer">
+              <Box >
+                <Image
+                  src={blog}
+                  alt=""
+                />
+              </Box>
+            </Box>
+            <Box className="project_information" >
+              <h2>911.com</h2>
+              <p>
+              911.com website is a healthcare platform. It provides services, such as an e-pharmacy, where you can buy different kinds of medicine and healthcare products.
+              </p>
+              <Box>
+              <SiJavascript/>
+                <SiHtml5 />
+                <SiCss3/>
+                <GrReactjs/>
+                <SiMongodb/>
+                <SiExpress/>
+                <SiChakraui/>
+              </Box>
+              <Box>
+                <a
+                  href="https://911-com.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/Rohit1-1/phobic-turn-8444"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+
+
         <Box className="projects_container">
           <Box className="project">
             <Box className="project_videocontainer">
