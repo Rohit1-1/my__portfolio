@@ -12,6 +12,7 @@ import {GrReactjs} from 'react-icons/gr'
 import anthro from "./Project_img/anthro.png"
 import expedia from "./Project_img/expedia.png"
 import weather from "./Project_img/weather.png"
+import nine from "./Project_img/nine.png"
 import blog from "./Project_img/blog.png"
 import { Box, Image } from "@chakra-ui/react";
 export const Projects = () => {
@@ -21,6 +22,57 @@ export const Projects = () => {
         <h2 className="section__title different">
           Projects
         </h2>
+
+
+
+        <Box className="projects_container">
+          <Box className="project">
+            <Box className="project_videocontainer">
+              <Box >
+                <Image
+                  src={nine}
+                  alt=""
+                />
+              </Box>
+            </Box>
+            <Box className="project_information" >
+              <h2>911.com</h2>
+              <p>
+              911.com website is a healthcare platform. It provides services, such as an e-pharmacy, where you can buy different kinds of medicine and healthcare products.
+              </p>
+              <Box>
+              <SiJavascript/>
+                <SiHtml5 />
+                <SiCss3/>
+                <GrReactjs/>
+                <SiMongodb/>
+                <SiExpress/>
+                <SiChakraui/>
+              </Box>
+              <Box>
+                <a
+                  href="https://911-com.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/Rohit1-1/phobic-turn-8444"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+
 
 
         <Box className="projects_container">
@@ -59,55 +111,6 @@ export const Projects = () => {
                 </a>
                 <a
                   href="https://github.com/Rohit1-1/MERN_BLOGAPP_"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
-                  </span>
-                </a>
-              </Box>
-            </Box>
-          </Box>
-        </Box>
-
-
-        <Box className="projects_container">
-          <Box className="project">
-            <Box className="project_videocontainer">
-              <Box >
-                <Image
-                  src={blog}
-                  alt=""
-                />
-              </Box>
-            </Box>
-            <Box className="project_information" >
-              <h2>911.com</h2>
-              <p>
-              911.com website is a healthcare platform. It provides services, such as an e-pharmacy, where you can buy different kinds of medicine and healthcare products.
-              </p>
-              <Box>
-              <SiJavascript/>
-                <SiHtml5 />
-                <SiCss3/>
-                <GrReactjs/>
-                <SiMongodb/>
-                <SiExpress/>
-                <SiChakraui/>
-              </Box>
-              <Box>
-                <a
-                  href="https://911-com.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/Rohit1-1/phobic-turn-8444"
                   target="_blank"
                   rel="noreferrer"
                 >
