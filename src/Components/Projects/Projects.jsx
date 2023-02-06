@@ -14,6 +14,7 @@ import expedia from "./Project_img/expedia.png"
 import weather from "./Project_img/weather.png"
 import nine from "./Project_img/nine.png"
 import blog from "./Project_img/blog.png"
+import urlsort from "./Project_img/urlsort.png"
 import { Box, Image } from "@chakra-ui/react";
 export const Projects = () => {
   return (
@@ -123,6 +124,54 @@ export const Projects = () => {
           </Box>
         </Box>
 
+
+        <Box className="projects_container">
+          <Box className="project">
+            <Box className="project_videocontainer">
+              <Box >
+                <Image
+                  src={urlsort}
+                  alt=""
+                />
+              </Box>
+            </Box>
+            <Box className="project_information" >
+              <h2 style={{fontSize:"30px"}}>UrlSortner Application</h2>
+              <p>
+              This is a URL Shortener application where you make your url short , you can also give a unique keyname to the endpoint.
+              </p>
+              <Box>
+              <SiJavascript/>
+                <SiHtml5 />
+                <SiCss3/>
+                <GrReactjs/>
+                <SiMongodb/>
+                <SiExpress/>
+                <SiChakraui/>
+              </Box>
+              <Box>
+                <a
+                  href="https://urlsortner.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/Rohit1-1/urlSortner_app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
 
         {/* <Box className="projects_container">
           <Box className="project">
