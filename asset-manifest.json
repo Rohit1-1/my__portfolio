@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my__portfolio/static/css/main.791f3ee0.css",
+    "main.css": "/my__portfolio/static/css/main.6ec3e3ff.css",
     "main.js": "/my__portfolio/static/js/main.31b53d2b.js",
     "static/media/anthro.png": "/my__portfolio/static/media/anthro.99be6357c5b04a247d60.png",
     "static/media/blog.png": "/my__portfolio/static/media/blog.e8e25340de94abf47053.png",
@@ -11,11 +11,11 @@
     "static/media/Rohit_Kumar_Resume.pdf": "/my__portfolio/static/media/Rohit_Kumar_Resume.dae46652aa134c0e2d51.pdf",
     "static/media/urlsort.png": "/my__portfolio/static/media/urlsort.fcd8db6c332a2464774a.png",
     "index.html": "/my__portfolio/index.html",
-    "main.791f3ee0.css.map": "/my__portfolio/static/css/main.791f3ee0.css.map",
+    "main.6ec3e3ff.css.map": "/my__portfolio/static/css/main.6ec3e3ff.css.map",
     "main.31b53d2b.js.map": "/my__portfolio/static/js/main.31b53d2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.791f3ee0.css",
+    "static/css/main.6ec3e3ff.css",
     "static/js/main.31b53d2b.js"
   ]
 }
