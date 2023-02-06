@@ -87,7 +87,12 @@
 .project_information::-webkit-scrollbar {
   display: none;
 }
-
+.project_information > .urlS {
+  font-size: 30px;
+  /* margin-top: 1em;
+  border: 1px solid red;
+  color: var(--clr-primary); */
+}
 
 @media (max-width: 600px) {
   .project {

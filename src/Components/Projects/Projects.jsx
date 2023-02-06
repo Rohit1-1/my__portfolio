@@ -15,7 +15,7 @@ import weather from "./Project_img/weather.png"
 import nine from "./Project_img/nine.png"
 import blog from "./Project_img/blog.png"
 import urlsort from "./Project_img/urlsort.png"
-import { Box, Image } from "@chakra-ui/react";
+import { Box, Heading, Image } from "@chakra-ui/react";
 export const Projects = () => {
   return (
     <>
@@ -136,7 +136,7 @@ export const Projects = () => {
               </Box>
             </Box>
             <Box className="project_information" >
-              <h2 style={{fontSize:"30px"}}>UrlSortner Application</h2>
+              <h2 className="urlS">UrlSortner Application</h2>
               <p>
               This is a URL Shortener application where you make your url short , you can also give a unique keyname to the endpoint.
               </p>
