@@ -111,4 +111,10 @@
     border: 1px solid red;
     color: var(--clr-primary); */
   }
+  .project_information > .urlS {
+    font-size: 1.5rem;
+    /* margin-top: 1em;
+    border: 1px solid red;
+    color: var(--clr-primary); */
+  }
 }

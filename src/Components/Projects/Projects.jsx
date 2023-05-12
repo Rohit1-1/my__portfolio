@@ -173,7 +173,7 @@ export const Projects = () => {
           </Box>
         </Box>
 
-        {/* <Box className="projects_container">
+        <Box className="projects_container">
           <Box className="project">
             <Box className="project_videocontainer">
               <Box>
@@ -215,7 +215,7 @@ export const Projects = () => {
               </Box>
             </Box>
           </Box>
-        </Box> */}
+        </Box>
     
         <Box className="projects_container">
           <Box className="project">
