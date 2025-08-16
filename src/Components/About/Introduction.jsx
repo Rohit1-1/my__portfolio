@@ -1,7 +1,7 @@
 import React from "react";
 import "./Introduction.css";
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
-import img from "../Img/me.jpg"
+import img from "../Img/me.png"
 import {VscDebugBreakpointLog} from 'react-icons/vsc'
 import { Box, Heading, Image } from "@chakra-ui/react";
 export const Introduction = () => {
